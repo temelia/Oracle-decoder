@@ -1,5 +1,6 @@
 body{
-    background: url(../imagenes/fondo.jpg) no-repeat center;
+    background-color: rgb(53, 49, 49);
+    background-image: url("imagenes/fondo.jpg");
     background-size: cover;
     margin: 0px;
     padding:0px;    
