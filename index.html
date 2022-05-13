@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+   
+<body>  
+    <header>
+        <img src="imagenes/Logo.png" class="logo">
+        <h1 class = titulo>ENCRIPTADOR DE TEXTO</h1>
+    </header>    
+    <main>
+        <section class="principal">
+            <textarea type="text" class="input-text" cols= "40" rows="6" placeholder="Ingrese su texto aquí"></textarea>
+            <p class="p1">Solo letras minúsculas y sin acentos</p>            
+        </section>  
+        <section class="results">
+            <textarea type="text" class="input-text-area" cols= "18" rows="8"></textarea>
+            <p class="p2" id="p2">Ningún mensaje fue encontrado</p>
+            <p class="p3" id="p3">Ingresa el texto que desees encriptar o desencriptar</p>
+            <img src="imagenes/muneco.png" id="muneco" class="muneco">
+        </section>  
+        <div>
+            <button type="button" onclick="botonencriptar(), desaparecer()" class="btn-encriptar">Encriptar</button>
+            <button type="button" onclick="botondesencriptar()"class="btn-desencriptar">Desencriptar</button>
+        </div> 
+        <p class="pie">Creado para Programa Oracle ONe y Alura LATAM - Eliana Teme - Mayo 2022</p> 
+    </main>  
+</body>
+
+<script src="script.js"></script>
+</html>

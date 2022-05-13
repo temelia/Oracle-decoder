@@ -1,0 +1,129 @@
+body{
+    background: url(../imagenes/fondooscuro.png) no-repeat center;
+    background-size: cover;
+    margin: 0px;
+    padding:0px;    
+    font-family: inter;  
+}
+.logo{
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.titulo{
+    display: inline-block;
+    font-family: 'Audiowide', sans-serif;
+    color: #48a0f3;
+    font-size: 36px;
+    text-shadow: 0 0 10px #FF0000, 0 0 22px #b7ff00;    
+}
+main{
+    background: linear-gradient(#48a0f3, #FFFFFF, #e27878);
+    margin: auto;
+    width: 960px;
+    height: 600px;
+    padding: 5px;  
+    border-radius: 15px;  
+}
+.principal{
+    float: left;
+    width: 65%;
+    height: 50%; 
+    margin-top: 2%;
+    margin-left: 2%;
+    background: #fed7d7; 
+    border-radius: 15px; 
+}
+.input-text{
+    background: #fed7d7;    
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 24px;
+    color: firebrick;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.results{
+    background:white; 
+    float: right;
+    margin-top:2%;
+    margin-right: 2%;    
+    width: 25%;
+    height:93%;
+    border-radius: 15px;
+}
+.input-text-area{
+    background: #FFFFFF;
+    float:left;    
+    margin-top:10%;
+    margin-left: 10%;
+    color: #495057;
+    width: 80%;
+    height: 90%;
+    border: none;
+    outline: none;
+    resize: none; 
+}
+.muneco{
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 70%;
+    height: auto; 
+    position: relative; top: -450px;
+}
+.p1{
+    margin-left: 14%;
+    margin-top: 33%;
+    font-size: 10px;
+}
+.p1::before{
+    content: "➤";
+}
+.btn-encriptar{
+    width: 25%;
+    height: 60%; 
+    margin-top: 20%;   
+    margin-left: 10%;
+    border-radius: 15px;
+    padding: 15px;
+    color: #FFFFFF;
+    background: #0A3871;
+    border: none;
+    outline: none;
+}
+.btn-desencriptar{
+    width: 25%;
+    height: 60%;
+    border-radius: 15px;
+    padding: 15px;
+    background: #D8DFE8;
+    outline: none;
+    border: 1px solid #0A3871
+}
+.p2{
+    width: 70%;
+    margin-left:15% ;
+    color: #343A40;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative; top: -130px;
+}
+.p3{
+    color: gray;
+    font-size: 10px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    position: relative; top: -130px;   
+}
+.pie{
+    background: #48a0f3;
+    color: #D8DFE8;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 16%;
+    margin-top: 2%;
+    display: inline-block;    
+}
+
